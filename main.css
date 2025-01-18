@@ -1,0 +1,30 @@
+.container-fluid{
+    text-align: center;
+}
+.def_timer {
+    font-size: 100pt;
+    color: #ff0000;
+}
+h3 {
+    font-size: 60pt;
+    text-align: center;
+}
+.product-item {
+    float: left;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.custom-blink.anime {
+    animation: blink-fast .3s linear infinite;
+}
+
+@keyframes blink-fast {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+}
