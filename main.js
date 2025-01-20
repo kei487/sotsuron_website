@@ -24,13 +24,13 @@ start_button.addEventListener('click',()=>{
     stop_button.disabled = false;
     timer_id = setInterval(go_timer,10);
     })
-
+/*
 stop_button.addEventListener('click',()=>{
     start_button.disabled = false;
     stop_button.disabled = true;
     clearInterval(timer_id);
 })
-
+*/
 function add_zero(value){
     if(value < 10){
         value = "0" + value;
